@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>BiRide</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/vanilla-zoom.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-white clean-navbar">
+        <div class="container"><a class="navbar-brand logo" href="#" style="transform: scale(1.20);margin-left: 15px;">BiRide</a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#pillion">Pillion</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#rider">Rider</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page landing-page">
+        <section id="home" class="clean-block clean-hero" style="background-image: url(&quot;assets/img/tech/bike.jpg&quot;);color: rgba(9,162,255,0.71);transform: scaleY(1);height: 780px;">
+            <div class="text">
+                <h2 style="transform: scale(2);padding-bottom: 0px;margin-bottom: 20px;">BiRide</h2>
+                <p style="margin-bottom: 23px;">You ride we provide</p><button class="btn btn-outline-light btn-lg" type="button" style="margin-top: 33px;" data-bs-target="#modal-learn" data-bs-toggle="modal">Learn</button>
+            </div>
+        </section>
+        <section id="pillion" class="clean-block clean-info dark">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info">Pillion</h2>
+                    <p>Enlist your displacement</p>
+                </div>
+            </div>
+            <div class="clean-block clean-form dark mb-3 d-flex flex-row">
+                <div style="margin-left: 150px;">
+                    <form style="margin-right: 0px;margin-left: 0px;width: 450px;height: 450px;">
+                        <div class="mb-3"><label class="form-label" for="name">Name</label><input class="form-control" type="text" id="pname" name="name"></div>
+                        <div class="mb-3 d-flex flex-row"><label class="form-label" for="subject" style="margin-right: 10rem;">Pickup</label><select class="form-select" id="ppic">
+                                <option value="Alpha">Alpha</option>
+                                <option value="Beta">Beta</option>
+                                <option value="Gamma">Gamma</option>
+                                <option value="Eta">Eta</option>
+                                <option value="Delta">Delta</option>
+                                <option value="PariChowk">PariChowk</option>
+                                <option value="KnowledgePark">KnowledgePark</option>
+                                <option value="GaurCity">GaurCity</option>
+                                <option value="Omicron">Omicron</option>
+                                <option value="SwarnNagri">SwarnNagri</option>
+                            </select></div>
+                        <div class="mb-3 d-flex flex-row"><label class="form-label" for="email" style="margin-right: 7.6rem;">Destination</label><select class="form-select" id="pdes">
+                                <option value="Alpha">Alpha</option>
+                                <option value="Beta">Beta</option>
+                                <option value="Gamma">Gamma</option>
+                                <option value="Eta">Eta</option>
+                                <option value="Delta">Delta</option>
+                                <option value="PariChowk">PariChowk</option>
+                                <option value="KnowledgePark">KnowledgePark</option>
+                                <option value="GaurCity">GaurCity</option>
+                                <option value="Omricon">Omricon</option>
+                                <option value="SwarnNagri">SwarnNagri</option>
+                            </select></div>
+                        <div class="mb-3"><label class="form-label" for="message">Contact</label><input class="form-control" type="text" id="pcon"></div>
+                        <div class="mb-3 text-center"><button class="btn btn-primary" id="penlist" type="button">Enlist</button></div>
+                    </form>
+                </div>
+                <div style="padding-right: 0px;margin-right: 100px;margin-left: 200px;">
+                    <div class="card" style="margin-right: 0px;width: 400px;">
+                        <div class="card-header" id="riderhead">
+                            <h5 id="riderinfohead" class="mb-0" style="font-weight: bold;font-size: 30px;color: var(--bs-white);">umm</h5>
+                        </div>
+                        <div class="card-body" style="width: 400px;height: 395px;">
+                            <p class="card-text" id="riderinfo" style="height: 365px;font-size: 22px;"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="rider" class="clean-block">
+            <div class="container">
+                <div class="block-heading">
+                    <h2 class="text-info">Rider</h2>
+                    <p>Enlist your displacement</p>
+                </div>
+                <div class="carousel slide" data-bs-ride="carousel" id="carousel-1">
+                    <div class="carousel-inner"></div>
+                    <div><a class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span><span class="visually-hidden">Previous</span></a><a class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next"><span class="carousel-control-next-icon"></span><span class="visually-hidden">Next</span></a></div>
+                    <ol class="carousel-indicators"></ol>
+                </div>
+            </div>
+            <div class="clean-block clean-form mb-3 d-flex flex-row" style="margin-bottom: 0px;">
+                <div style="margin-left: 50px;">
+                    <form style="margin-right: 1px;margin-left: 100px;width: 450px;height: 450px;">
+                        <div class="mb-3"><label class="form-label" for="name">Name</label><input class="form-control" type="text" id="rname" name="name"></div>
+                        <div class="mb-3 d-flex flex-row"><label class="form-label" for="subject" style="margin-right: 10rem;">Pickup</label><select class="form-select" id="rpic">
+                                <option value="Alpha">Alpha</option>
+                                <option value="Beta">Beta</option>
+                                <option value="Gamma">Gamma</option>
+                                <option value="Eta">Eta</option>
+                                <option value="Delta">Delta</option>
+                                <option value="PariChowk">PariChowk</option>
+                                <option value="KnowledgePark">KnowledgePark</option>
+                                <option value="GaurCity">GaurCity</option>
+                                <option value="Omricon">Omricon</option>
+                                <option value="SwarnNagri">SwarnNagri</option>
+                            </select></div>
+                        <div class="mb-3 d-flex flex-row"><label class="form-label" for="email" style="margin-right: 7.6rem;">Destination</label><select class="form-select" id="rdes">
+                                <option value="Alpha">Alpha</option>
+                                <option value="Beta">Beta</option>
+                                <option value="Gamma">Gamma</option>
+                                <option value="Eta">Eta</option>
+                                <option value="PariChowk">PariChowk</option>
+                                <option value="KnowledgePark">KnowledgePark</option>
+                                <option value="GaurCity">GaurCity</option>
+                                <option value="Omricon">Omricon</option>
+                                <option value="SwarnNagri">SwarnNagri</option>
+                            </select></div>
+                        <div class="mb-3"><label class="form-label" for="message">Contact</label><input class="form-control" type="text" id="rcon"></div>
+                        <div class="mb-3 text-center"><button class="btn btn-primary" id="renlist" type="button">Enlist</button></div>
+                    </form>
+                </div>
+                <div style="margin-right: 100px;margin-left: 200px;">
+                    <div class="card" style="width: 400px;height: 450px;">
+                        <div class="card-header" id="pillionhead">
+                            <h5 id="pillinfohead" class="mb-0" style="font-size: 30px;font-weight: bold;color: var(--bs-white);">umm</h5>
+                        </div>
+                        <div class="card-body" style="height: 395px;">
+                            <p class="card-text" id="pillioninfo" style="height: 365px;font-size: 22px;"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <div class="modal fade" role="dialog" tabindex="-1" id="modal-learn">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable" role="document">
+            <div class="modal-content">
+                <div class="modal-header" style="padding-top: 6px;margin-bottom: 0px;padding-bottom: 5px;">
+                    <h4 class="modal-title">About BiRide</h4><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Biride content</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js"></script>
+    <script src="assets/js/vanilla-zoom.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/allclicks.js"></script>
+</body>
+
+</html>
